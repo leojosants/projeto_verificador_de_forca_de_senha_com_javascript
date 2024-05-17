@@ -1,1 +1,1 @@
-# Projet0 desenvolvido em HTML, CSS e JS
+# Projeto desenvolvido em HTML, CSS e JS
