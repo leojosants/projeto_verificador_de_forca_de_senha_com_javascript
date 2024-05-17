@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Verificador de força de senha</title>
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+		<script src="./assets/js/index.js" defer></script>
+	</head>
+	<body>
+		<div class="c-container">
+			<h2>Verficador de força de senha</h2>
+
+			<p>Insira uma senha para verificar sua força:</p>
+
+			<input
+				type="password"
+				id="id-password-input"
+				placeholder="Digite sua senha"
+				data-id="password-input"
+			/>
+
+			<div class="c-password-strength-bar">
+				<div
+					class="c-strength-indicator"
+					id="id-strength-indicator"
+					data-id="strength-indicator"
+				></div>
+			</div>
+
+			<p id="id-strength-text" data-id="strength-text">Senha fraca</p>
+
+			<p id="id-tip" data-id="tip">
+				Sua senha precisa conter letras minúsculas e maiúsculas, números e
+				caracteres especiais.
+			</p>
+		</div>
+	</body>
+</html>
+
+<!-- https://www.youtube.com/watch?v=aJH2KybHFDI -->
