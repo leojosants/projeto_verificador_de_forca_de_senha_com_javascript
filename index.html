@@ -4,6 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Verificador de força de senha</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		/>
 		<link rel="stylesheet" href="./assets/css/styles.css" />
 		<script src="./assets/js/index.js" defer></script>
 	</head>
@@ -13,12 +17,19 @@
 
 			<p>Insira uma senha para verificar sua força:</p>
 
-			<input
-				type="password"
-				id="id-password-input"
-				placeholder="Digite sua senha"
-				data-id="password-input"
-			/>
+			<div class="c-password-container">
+				<input
+					type="password"
+					id="id-password-input"
+					placeholder="Digite sua senha"
+					data-id="password-input"
+				/>
+				<i
+					id="id-toggle-password"
+					class="fas fa-eye"
+					data-id-toggle-password
+				></i>
+			</div>
 
 			<div class="c-password-strength-bar">
 				<div
